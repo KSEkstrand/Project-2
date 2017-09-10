@@ -1,0 +1,58 @@
+/*.sidePics{
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.sidePicContainer{
+  text-align: center;
+}
+
+.mainTitle{
+  display: inline-block;
+}
+
+.mainCog{
+  display: inline-block;
+}
+
+.mainContent{
+  background-color: blue;
+}
+
+.mainContent .title{}
+
+.blogEntry{
+  margin-top: 15px;
+}
+
+.blogEntry:last-child{
+  margin-bottom: 15px;
+}
+
+.sidePicContainer img{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 150px;
+}
+
+.blogEntry img{
+  max-height: 200px;
+}
+
+@media screen and (max-width: 374px) {
+  .sidePicContainer img{
+    display: block;
+    max-width: 150px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sidePicContainer img{
+    display: block;
+    width: auto;
+  }
+
+
+}
